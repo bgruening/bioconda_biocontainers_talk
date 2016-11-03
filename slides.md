@@ -62,6 +62,8 @@ Note: a major issue for productivity and reproducibility in science
 A package manager
 - Programming language agnostic
 - OS independent
+- Needed no root privileges
+- Managing multiple versions
     
 Note: Development of bioinformatic tools in mostly all available languages and Tools used on every major operating systems
 
@@ -117,32 +119,16 @@ Note: Wants an higher layer of abstraction and isolation of the base system?
 
 A layer donning project to build <br>Docker container from conda package
 
-*what to change?*
-
-----
-
-### How to build your own container
-
-1. Open the file [packages.tsv](https://github.com/mulled/mulled/blob/master/packages.tsv) in edit mode
-2. Insert a new line describing your package you want to containerizing
-3. Create a Pull Request and wait until our testing passes
-4. You are done
-
-<i class="fa fa-long-arrow-right"></i> You have a Docker image waiting for you on [Quay.io](https://quay.io/)
-
-----
-
-### Too complicated?
-
-Not really! Directly plugged on BioConda GitHub repository...
+*auto-mulled, simple scheme to explain mulled, cron..., give exemple of samtools container...*
 
 ----
 
 ### Deployment issue
 
 ![](images/tool_development_mulled_solution.png)
-
 ### <br><i class="fa fa-check"></i>Fixed!
+
+*add rocket, singularity, ...*
 
 ---
 
