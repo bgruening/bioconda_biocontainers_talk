@@ -43,17 +43,16 @@ Note: documentation, training and support are also provided to help users, sprea
 
 ### But...
 
-Do not you already have to deal with <br>a missing tool dependencies?
+Who has never deal with a missing tool dependencies?<br>
+Or an older version of a tool could not be installed?
 
-Or an older version of a tool could not be installed <br>due to various reasons?
-
-**Major issues in deployment and sustainability**
+### :fa-exclamation-triangle: Major issues in <br>deployment and sustainability
 
 Note: a major issue for productivity and reproducibility in science
 
 ---
 
-# Deployment issue
+## Deployment issue
 
 ----
 
@@ -99,7 +98,7 @@ Note: Extensive documentation
 
 ![](http://localhost:8000/images/tool_development_bioconda_solution.png){no-border}
 
-- More than 1,500 bioinformatic packages developed in one year
+- More than 1,500 bioinformatic packages
 - Big, fast-growing and newcomer-friendly community
 
 Note: Bioconda: a distribution of bioinformatics softwares using Conda
@@ -138,7 +137,7 @@ Note: less than 10Mb for samtools
 
 ---
 
-# Sustainability issue
+## Sustainability issue
 
 ----
 
@@ -168,10 +167,6 @@ Note: Permanent cache of all available packages to be always reachable and enabl
 ### :fa-check:Fixed!
 
 ---
-
-# Conclusion
-
-----
 
 ### Tool deployment and sustainability <br>in bioinformatics 
 
