@@ -1,24 +1,28 @@
-# Pragmatic APIs 101
+# Tool deployment and sustainability in bioinformatics - Fixed!
 
 ## Abstract
 
-Over the last five years, I have studied REST and HTTP APIs a lot. Nowadays,
-everyone claims to have a REST API, yet the REST architecture is complex and not
-really practicable in real life. In this talk, we will see that it does not
-matter to be 100% REST-compliant, and above all, how to build an API in a
-pragmatic manner.
+Nowadays, massive amounts of diverse data are generated in biomedical research. To manage it and extract useful information, bioinformatic solutions are needed and softwares must be developed. The development of a tool should always follow a similar process. First, to solve a scientific question or a need, some source code is developed, that can be distributed as it is. To help its deployment and ease the usage of the tools, the code is packaged in various package formats. The tool behind the code is then deployed and used by the targeted users. Ideally, documentation, training and support are also provided to help users, spread the solution and advertise it.
+
+This process, from development to support, is the golden path to develop a good tool. But issues for deployment and sustainability of the tool are found for many bioinformatic tools. What bioinformatician has not dealt with the situation of missing tool dependencies, or an older version of a tool could not be installed due to various reasons. Deployment and sustainability of tools are therefore a major issue for productivity and reproducibility in science.
+
+For deployment issues, we need a package manager that is OS and programming language agnostic, as bioinformatic tools are developed in mostly all available languages and can be used on every major operating systems, including ancient ones. Moreover all available packages have to be permanently cached to be always reachable and enable reproducibility.
+
+Here we describe a community effort to create a flexible, scalable and sustainable system to fix the tool deployment problem once and for all.
+
+Bioconda is a distribution of bioinformatics softwares using Conda, an open source package manager, independent of any programming language and OS. Installation of conda packages are fast and robust. No root privileges are required and multiple versions of every software can be installed and managed in parallel. Helped by an extensive documentation, writing a conda package is very simple, easing the contribution. Thanks to its big and fast-growing community, more than 1,500 bioinformatic packages have been developed in last year. These packages are long-term stored in a public repository (Cargo Port), the distribution center of the Galaxy Project, resolving the sustainability issue. Moreover, a technique called layer donning has been recently introduced to build Docker containers automatically and very efficiently for all conda package.
+
+Development of conda packages through the Bioconda community eases the packaging and the deployment of any bioinformatic tool. The interface with Cargo Port enables sustainability by mirroring all sources. Building efficient Linux containers automatically ensures an even higher layer of abstraction and isolation of the base system. Thanks to these collaborative projects, their community and their collaborations, bioinformatics tools can be easily packaged, deployed and will be always available to help biomedical research.
 
 ## About the slides
 
 This slide deck has been written with
 [Monod](https://github.com/tailordev/monod), then exported as a Markdown file
-(`monod.md`) using <kbd>Cmd</kbd> + <kbd>S</kbd>. I created a Reveal.js template
-made of HTML and CSS (using the same CSS as in Monod), and a tool to fix a few
-things in the markdown exported by Monod (`bin/fix` script). The idea of this
-slide deck is to have a backup, in case the Internet goes wrong, my laptop
-burns, or any other disaster.
+(`monod.md`) using <kbd>Cmd</kbd> + <kbd>S</kbd>.
 
-Here is my workflow:
+A Reveal.js template was created from HTML and CSS (using the same CSS as in Monod), and a tool to fix a few things in the markdown exported by Monod (`bin/fix` script).
+
+Here is the workflow:
 
 1. I write slides in Monod
 2. I export the Markdown into this repository
