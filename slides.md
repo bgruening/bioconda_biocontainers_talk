@@ -1,4 +1,4 @@
-### Tool deployment and sustainability <br>in bioinformatics <br><i class="fa fa-check"></i> Fixed
+### Tool deployment and sustainability <br>in bioinformatics <br><i class="fa fa-check"></i> Fixed<br><br>
 
 **Bérénice Batut**, Jonas Weber, Rolf Backofen, Björn Grüning
 
@@ -76,18 +76,18 @@ Note: Development of bioinformatic tools in mostly all available languages and T
 - Fast, robust and easy package installation
 
   ```
-  $ conda install package_name (+ time, take a huge package)
+  $ conda install deeptools
   ```
   
 - Installation and management of multiple versions
 
-Note: No need for root privileges
+Note: No need for root privileges, Less than 1 minute to install deeptools with conda
 
 ----
 
 ### A Conda package
 
-![](images/conda_files.png)
+![](images/conda_package.png)
 
 <i class="fa fa-long-arrow-right"></i> Easy to write!
 
@@ -100,8 +100,7 @@ Note: Extensive documentation
 ![](images/tool_development_bioconda_solution.png)
 
 - More than 1,500 bioinformatic packages developed in one year
-- Big and fast-growing community
-- Newcomer welcoming
+- Big, fast-growing and newcomer-friendly community
 
 Note: Bioconda: a distribution of bioinformatics softwares using Conda
 
@@ -115,20 +114,27 @@ Note: Wants an higher layer of abstraction and isolation of the base system?
 
 ----
 
-### ![](images/mulled.png)
+### Mulled
 
-A layer donning project to build <br>Docker container from conda package
+A layer donning project to build Docker container
 
-*auto-mulled, simple scheme to explain mulled, cron..., give exemple of samtools container...*
+![](images/mulled_scheme_without_bioconda.png)
+
+----
+
+### Mulled
+
+![](images/mulled_scheme.png)
+
+Note: less than 10Mb for samtools
 
 ----
 
 ### Deployment issue
 
-![](images/tool_development_mulled_solution.png)
-### <br><i class="fa fa-check"></i>Fixed!
+![](images/tool_development_deployment.png)
 
-*add rocket, singularity, ...*
+### <i class="fa fa-check"></i>Fixed!
 
 ---
 
@@ -147,19 +153,19 @@ Note: Permanent cache of all available packages to be always reachable and enabl
 
 ----
 
-### Cargo Port<br>An easy solution
+### A solution<br>Cargo Port
 
-*image*
-
-Note: These packages are long-term stored in a public repository (Cargo Port), the distribution center of the Galaxy Project, resolving the sustainability issue
+- [A Public repository](https://depot.galaxyproject.org/software/) of the Galaxy Project
+- Stable and long term storage
+- Daily archives of the BioConda packages
 
 ----
 
 ### Sustainability issue
 
-*scheme summary*
+![](images/tool_development_sustainability.png)
 
-### <br><i class="fa fa-check"></i>Fixed!
+### <i class="fa fa-check"></i>Fixed!
 
 ---
 
@@ -171,7 +177,7 @@ Note: These packages are long-term stored in a public repository (Cargo Port), t
 
 ![](images/tool_development_solution_scheme.png)
 
-### <br><i class="fa fa-check"></i>Fixed! 
+### <i class="fa fa-check"></i>Fixed! 
 
 Note: Community effort to create 
   - a flexible, 
@@ -182,8 +188,6 @@ Development of conda packages through the Bioconda community eases the packaging
 
 ---
 
-## Thank You.
-
-### Questions?
+### Thank You<br>Questions?
 
 ![](images/tool_development_final_scheme.png)
