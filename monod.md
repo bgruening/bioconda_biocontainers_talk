@@ -115,7 +115,7 @@ Note: Wants an higher layer of abstraction and isolation of the base system?
 
 ### Mulled
 
-A layer donning approach to build Docker container<br>(without Dockerfile)
+A layer donning approach to build Docker containers<br>(without Dockerfile)
 
 ![](http://localhost:8000/images/mulled_scheme_without_bioconda.png){no-border}
 
@@ -151,7 +151,7 @@ Note: Permanent cache of all available packages to be always reachable and enabl
 
 ### A solution<br>Cargo Port
 
-- [A Public repository](https://depot.galaxyproject.org/software/), kindly hosted by the Galaxy Project
+- [A public repository](https://depot.galaxyproject.org/software/), kindly hosted by the Galaxy Project
 - Stable and long term storage
 - Daily archives of the BioConda packages
 
