@@ -197,15 +197,12 @@ Note: With the automatic backup of bioconda packages in Cargo Port, the sustaina
 
 ![](http://localhost:8000/images/tool_development_solution_scheme.png){no-border}
 
-Note: With Bioconda and Mulled, a great Community effort to create a flexible, scalable sustainable system to fix the tool deployment problem once and for all
+Note: 
+Development of BioConda packages is really easy and eases the packaging and the deployment of any bioinformatic tool. With Mulled project, efficient Linux containers are automatically built from your conda package to ensure an even higher layer of abstraction and isolation of the base system. This is a great community effort to create a flexible, scalable sustainable system to fix the tool deployment problem once and for all
 
-Development of conda packages through the Bioconda community eases the packaging and the deployment of any bioinformatic tool. 
+The interface of bioconda packages with Cargo Port enables sustainability by mirroring all sources. 
 
-The interface with Cargo Port enables sustainability by mirroring all sources. 
-
-Building efficient Linux containers automatically ensures an even higher layer of abstraction and isolation of the base system. 
-
-Thanks to these collaborative projects, their community and their collaborations, bioinformatics tools can be easily packaged, deployed and will be always available to help biomedical research.
+ I hope that I convince you that Thanks to these collaborative projects, their community and their collaborations, bioinformatics tools can be easily packaged, deployed and will be always available to help biomedical research. 
 
 ---
 
