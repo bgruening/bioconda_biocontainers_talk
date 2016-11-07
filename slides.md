@@ -73,6 +73,7 @@ A package manager
 - OS independent
 - No root privileges needed
 - Management of multiple version
+- HPC and Cloud compatible
     
 Note: 
 - Programming language agnostic: Development of bioinformatic tools in mostly all available languages
