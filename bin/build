@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./decktape/bin/phantomjs decktape/decktape.js automatic https://bebatut-slides.github.io/de_nbi_heidelberg_11_16/#/ presentation.pdf
