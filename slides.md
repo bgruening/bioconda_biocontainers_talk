@@ -20,7 +20,7 @@ Note: Nowadays, for biomedical research, massive amounts of data are generated t
 
 ### Bioinformatics is getting complex!
 
-![](https://raw.githubusercontent.com/bgruening/galaxy-universe/master/images/main_scheme.svg)
+![](https://raw.githubusercontent.com/bgruening/galaxy-universe/master/images/main_scheme.png)
 
 
 ----
