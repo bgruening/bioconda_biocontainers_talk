@@ -1,13 +1,10 @@
 ### Tool deployment and sustainability <br>in bioinformatics <br><i class="fa fa-check"></i> Fixed<br><br>
 
-**Bérénice Batut**, Jonas Weber, Rolf Backofen, Björn Grüning
+**Björn Grüning**, Jonas Weber, BioContainers, BioConda
 
 <small>
-University of Freiburg<br><br>Bioinformatics for Human Health and Disease<br>Heidelberg - November 2016
+University of Freiburg<br><br>February 2017
 </small> 
-
-Note: Hello, My name is Bérénice. I am from the University of Freiburg. First, I would like to thank the organisers to let me present this work today. 
-I will talk to you about deployment and sustainability of bioinformatics tools, their issues and solutions.
 
 ---
 
@@ -18,6 +15,13 @@ Generation of massive amounts of diverse data
 <i class="fa fa-long-arrow-right"></i> Need of bioinformatic solutions and tools
 
 Note: Nowadays, for biomedical research, massive amounts of data are generated to answer the questions. This data are diversed: genomic data, images, ... as well as the questions. To manipulate these data and extract useful information to answer the questions, bioinformatics solutions and tools are needed. Some tools already exist for your question. But sometimes, you need a new tool specific for your question.
+
+----
+
+### Bioinformatics is getting complex!
+
+![](https://raw.githubusercontent.com/bgruening/galaxy-universe/master/images/main_scheme.svg)
+
 
 ----
 
@@ -115,7 +119,7 @@ Note: Only 2 files + Extensive documentation
 
 ![](images/tool_development_bioconda_solution.png)
 
-- More than 1,700 bioinformatic packages
+- More than 2000 bioinformatic packages
 - Big, fast-growing and newcomer-friendly community
 
 Note: 
@@ -136,7 +140,7 @@ Note: If you have your bioconda package, you may want Docker image, an higher la
 
 ### Mulled
 
-A layer donning approach to build Docker containers<br>(without Dockerfile)
+A layer donning approach to build Docker containers<br>(without Dockerfiles)
 
 ![](images/mulled_scheme_without_bioconda.png)
 
