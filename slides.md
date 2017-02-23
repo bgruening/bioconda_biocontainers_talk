@@ -18,14 +18,14 @@ Note: Nowadays, for biomedical research, massive amounts of data are generated t
 
 ----
 
-### Bioinformatics is getting complex!
+### Bioinformatics is complex!
 
 ![](https://raw.githubusercontent.com/bgruening/galaxy-universe/master/images/main_scheme.png)
 
 
 ----
 
-### How to develop a tool?
+### How to deploy a tool?
 
 ![](images/tool_development_1.png)
 
@@ -33,7 +33,7 @@ Note: Development of some source code that can be distributed as it is. Easy whe
 
 ----
 
-### How to develop a tool?
+### How to deploy a tool?
 
 ![](images/tool_development_packaging.png)
 
@@ -42,7 +42,7 @@ The tool behind the code can be then easily deployed and used by the targeted us
  
 ----
 
-### How to develop a tool?<br>The Golden Path
+### How to deploy a tool?<br>The Golden Path
 
 ![](images/tool_development_training_doc_support.png)
 
@@ -68,6 +68,13 @@ These two issues: a major issue for productivity and reproducibility in science
 
 Note: issue related to tool not installable/deployable. If you want your tool to be used, your tool must be easily deployed anywhere
 
+
+----
+
+
+### Packaging software for reproducible research
+
+
 ----
 
 ### <i class="fa fa-bullseye"></i> Wanted
@@ -84,6 +91,7 @@ Note:
 - OS independent: Tools used on every major operating systems
 - No root privileges needed: some of the users do not have the root privilege on their computer thanks to their sys admin
 - Management of multiple version: your tool may need a tool with a given version but an other tool an older version.
+
 
 ----
 
