@@ -244,7 +244,7 @@ The interface of bioconda packages with Cargo Port enables sustainability by mir
 * documentation is still work
 * capturing all details is work
 * sharing these details is work
-* reproducing the results others is work
+* reproducing results is work
 * incentives are missing
 
 
