@@ -138,8 +138,26 @@ If you have a tool, we recommend you to develop a bioconda package for this
 
 ----
 
-### Want to have a Docker image?<br>![](images/mulled.png)
- 
+### In the need for a container?<br>!
+
+- Builds on Linux kernel features enabling complete isolation from the kernel level up 
+- Containers — lightweight environments with isolation enforced at the OS level, complete control over all software
+- Adds a complete ecosystem for sharing, versioning, managing containers — e.g. Docker hub
+
+----
+
+### In the need for a container?<br>!
+
+- Given a set of packages and versions in Conda/Bioconda, we can build a container with just that software on a minimal base image
+- If we use the same base image, we can reconstruct exactly the same container
+- With automation, these containers can be built automatically for every package with no manual modifcation or intervention
+
+
+
+----
+
+### In the need for a container?<br>![](images/mulled.png)
+
 ![](images/tool_development_mulled_solution.png)
 
 Note: If you have your bioconda package, you may want Docker image, an higher layer of abstraction and isolation of the base system. Mulled will generate it for you from your bioconda package
