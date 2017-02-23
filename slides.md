@@ -206,11 +206,13 @@ Note: Permanent cache of all available packages to be always reachable and enabl
 
 ----
 
-### A solution<br>Cargo Port
+### Solution: Cargo Port
 
 - [A public repository](https://depot.galaxyproject.org/software/), kindly hosted by the Galaxy Project
 - Stable and long term storage
 - Daily archives of the BioConda packages
+
+- We need mirrors! Get in touch!
 
 Note: It archives many package with a stable and long term storage.
 
@@ -234,6 +236,25 @@ Development of BioConda packages is really easy and eases the packaging and the 
 The interface of bioconda packages with Cargo Port enables sustainability by mirroring all sources. 
 
  I hope that I convince you that Thanks to these collaborative projects, their community and their collaborations, bioinformatics tools can be easily packaged, deployed and will be always available to help biomedical research. 
+
+---
+
+### Who cares?
+
+* documentation is still work
+* capturing all details is work
+* sharing these details is work
+* reproducing the results others is work
+* incentives are missing
+
+
+---
+
+### Who cares?
+
+![](![](images/galaxy_universe.png))
+
+
 
 ---
 
